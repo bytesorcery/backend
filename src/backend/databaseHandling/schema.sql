@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS contacts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    firstName TEXT NOT NULL,
+    lastName TEXT NOT NULL,
+    eMail TEXT NOT NULL,
+    phoneNumber TEXT,
+    personalMessage BLOB NOT NULL,
+    created TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

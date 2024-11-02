@@ -18,6 +18,9 @@ colorama==0.4.6
     # via click
 flask==3.0.3
     # via backend
+    # via flask-cors
+flask-cors==5.0.0
+    # via backend
 itsdangerous==2.2.0
     # via flask
 jinja2==3.1.4
@@ -25,5 +28,7 @@ jinja2==3.1.4
 markupsafe==3.0.2
     # via jinja2
     # via werkzeug
+python-dotenv==1.0.1
+    # via backend
 werkzeug==3.0.6
     # via flask
